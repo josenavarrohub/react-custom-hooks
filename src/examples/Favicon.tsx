@@ -20,11 +20,11 @@ const Favicon = () => {
       </p>
       <p>Update the favicon to:</p>
       <div className="buttons">
-        <button onClick={() => setFavicon("/icons/react-white.svg")}>
-          <img src="/icons/react-white.svg" alt="Icon 1" />
+        <button onClick={() => setFavicon("icons/react-white.svg")}>
+          <img src="icons/react-white.svg" alt="Icon 1" />
         </button>
-        <button onClick={() => setFavicon("/icons/react-orange.svg")}>
-          <img src="/icons/react-orange.svg" alt="Icon 2" />
+        <button onClick={() => setFavicon("icons/react-orange.svg")}>
+          <img src="icons/react-orange.svg" alt="Icon 2" />
         </button>
       </div>
     </>
