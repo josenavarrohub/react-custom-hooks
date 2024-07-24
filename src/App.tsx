@@ -69,7 +69,7 @@ import LifecycleLogger from "./examples/LifecycleLogger";
 // Component
 const App = () => {
   return (
-    <Router basename="/react-custom-hooks">
+    <Router>
       <div className="app">
         <nav className="nav">
           <h2>🪝 Hooks</h2>
